@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Beau's Bonbon's</title>
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700|Lobster+Two" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="head-nav">
+      <h1>Beau's Bonbons</h1>
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
+        <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
+      </label>
+      <ul class="nav">
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#feature">Feature</a></li>
+        <li><a href="#parties">Parties</a></li>
+      </ul>
+    </nav>
+    <div class="banner">
+    </div>
+    <div class="banner-text">
+      <h2 class="banner-text banner-title yotta">Wizards Welcome, Muggles Tolerated</h2>
+      <p class="banner-text no-gutter">More than just a tasty treat, a trip to Beau's Bonbons is like a trip to a land of fairy tales.</p>
+      <p class="banner-text no-gutter">Featured this season–Just like in the wizarding world, we have created a shoppe you might expect to find in Hogsmead–except in the Muggle world.</p>
+    </div>
+  </header>
+
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1 l-1">
+      <main class="wrapper">
+        <section class="wrapper story" id="story">
+          <div>
+            <div class="story">
+              <h2 class="body-h2 yotta">Our Story</h2>
+              <p>From humble beginnings, our shoppe was established in 1999 by Tonks and Dudley Longerbottom.</p>
+              <p>Transfiguring a regular candy shoppe, into a magical land–where unlike the third floor corridor–all are welcome.</p>
+            </div>
+          </div>
+        </section>
+
+        <hr>
+        <section class="feature" id="feature">
+          <div class="body-h2">
+            <h2 class="sections yotta">Monthly Feature</h2>
+            <p>Quarterly, Beau's Bonbons adopts a new theme! This month? The boy who lived.</p>
+          </div>
+
+          <div class="grid">
+            <div class="unit s-1 m-1 l-1-3 gutter">
+              <img class="img-flex" src="images/beans.png" alt="Photo of a colourful array of jelly beans">
+              <h3>Bertie Bot's 30 Flavour Beans</h3>
+              <p>We're no Hogsmead, but you can get the authentic feel of Diagon Alley without the threat of Boggarts or Basilisks–and without the threat of booger flavoured jelly beans.</p>
+              <p><strong>10/10 Muggles approve.</strong></p>
+            </div>
+
+            <div class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-3">
+              <img class="img-flex" src="images/frogs.png" alt="Chocolate frogs">
+              <h3>Tamed Chocolate Frogs</h3>
+              <p>Forget fighting your afternoon tea–our chocolate frogs are trained to sit helplessly as you <em>gobble them into oblivion.</em></p>
+              <p><strong>Sweet, delicious murder.</strong></p>
+            </div>
+
+            <div class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-3">
+              <img class="img-flex" src="images/toffees.png" alt="Buttery looking toffees">
+              <h3>Treacle Tart Toffees</h3>
+              <p>The man himself, Harry Potter's favourite treat–the Treacle Tart–now available in toffee form! Live like the boy who lived–unless you're Stupify!</p>
+              <p><strong>Chewier than Hagrid's Rock Cakes.</strong></p>
+            </div>
+          </div>
+        </section>
+
+        <hr>
+        <section class="sections parties" id="parties">
+          <div>
+            <h2 class="sections yotta">Parties</h2>
+            <p><strong>Yes, we do catering!</strong></p>
+            <p>We take special requests, and even deliver. You're sweet enough, but that doesn't mean you shouldn't have one <em>sweet</em> party!</p>
+            <p>Though we tried<em>—blasted bylaws—</em>we do not have our own owlery for deliveries. Though we promise our delivery staff is less ornery, and just as much of a hoot!</p>
+          </div>
+          <div class="grid">
+            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+              <dl>
+                <dt>
+                  <i class="icon i-100 i-cater"></i>
+                </dt>
+                <dd class="icon-label">Catering</dd>
+              </dl>
+            </div>
+
+            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+              <dl>
+                <dt>
+                  <i class="icon i-100 i-birthday"></i>
+                </dt>
+                <dd class="icon-label">Birthdays</dd>
+              </dl>
+            </div>
+
+            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+              <dl>
+                <dt>
+                  <i class="icon i-100 i-custom"></i>
+                </dt>
+                <dd class="icon-label">Custom</dd>
+              </dl>
+            </div>
+
+            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+              <dl>
+                <dt>
+                  <i class="icon i-100 i-delivery"></i>
+                </dt>
+                <dd class="icon-label">Delivery</dd>
+              </dl>
+            </div>
+          </div>
+        </section>
+        <form action="https://formspree.io/your@email.com">
+
+          <div class="form-div">
+            <label for="subject">Subject</label>
+            <select id="subject">
+              <option>--</option>
+              <option>Hosting a party</option>
+              <option>Inquiring about delivery</option>
+              <option>Curious about ingredients</option>
+              <option>Other...</option>
+            </select>
+          </div>
+
+          <div class="form-div">
+            <label for="name">Name</label>
+            <input class="form-label" id="name">
+          </div>
+
+          <div class="form-div">
+            <label for="email">Email</label>
+            <input class="form-label" type="email" id="email" placeholder="iwantcandy@yesplease.com">
+          </div>
+
+          <div class="form-div">
+            <label for="message">Tell us a little more.</label>
+            <textarea class="form-label" id="message"></textarea>
+          </div>
+
+          <button type="submit">Send</button>
+        </form>
+
+      </main>
+    </div>
+  </div>
+  <footer>
+    <nav class="head-nav">
+      <p class="exa">Beau's Bon Bons</p>
+      <p class="micro rights">All Rights Reserved to Beau's Bon Bon's and JK Rowling's Harry Potter ©</p>
+    </nav>
+  </footer>
+</body>
+</html>
